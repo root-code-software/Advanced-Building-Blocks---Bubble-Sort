@@ -1,51 +1,50 @@
-def verify_input (array)
-  if array.is_a?(Array)
-    if array.all?(Numeric) || array.all? (String) 
-      array.respond_to?('each') ? true : false
-    end
+# frozen_string_literal: true
+
+def verify_input(array)
+  if !array.is_a?(Array)
+    false
+  else
+    array.respond_to?('each') ? true : false
   end
-  return false
 end
 
 def bubble_sort(arr)
-  if verify_input(arr)
-    length = arr.length
-      while true do
-          sorted = true
+  return unless verify_input(arr)
 
-          (length-1).times do |i|
-              next if i+1 == arr.length 
-              if arr[i] > arr[i+1]
-                  arr[i], arr[i+1] = arr[i+1], arr[i]
-                  sorted = false
-              end
-          end
-          break if sorted
+  length = arr.length
+  loop do
+    sorted = true
+    (length - 1).times do |i|
+      next if i + 1 == arr.length
+
+      if arr[i] > arr[i + 1]
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        sorted = false
       end
-      arr
-  else
-    return arr
+    end
+    break if sorted
   end
+  arr
 end
 
 def bubble_sort_by(arr)
   if verify_input(arr)
     if block_given?
       loop do
-        swapped = false
+        swapped = true
         (arr.length - 1).times do |i|
           if yield(arr[i], arr[i + 1]).positive?
             arr[i], arr[i + 1] = arr[i + 1], arr[i]
-            swapped = true
+            swapped = false
           end
         end
-        break unless !swapped
+        break unless swapped
       end
       arr
     else
       bubble_sort(arr)
     end
   else
-    return arr
+    arr
   end
 end
