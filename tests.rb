@@ -9,3 +9,15 @@ require_relative 'main'
 print bubble_sort_by(['ccc','a', 'ab', 'oqnwelqwe']) { |left, right|
   left.length - right.length
 }
+
+print bubble_sort_by(2) { |left, right|
+  left - right
+}
+
+print bubble_sort_by([1, 2,'kdehn', 3]) { |left, right|
+  left - right
+}
+
+p bubble_sort_by([1, 2, 1, 3]) { |left, right|
+  left - right
+}
