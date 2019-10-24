@@ -9,8 +9,8 @@
 
 # Steps to follow
 
-- [ ] Setup repository and linters
-- [ ] Create `#bubble_sort` method
+- [x] Setup repository and linters
+- [x] Create `#bubble_sort` method
 - [ ] Create `#bubble_sort_by` method
 - [ ] Check `Rubocop`
 - [ ] Fills the README
