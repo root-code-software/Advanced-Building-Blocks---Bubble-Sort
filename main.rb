@@ -20,3 +20,21 @@ def bubble_sort(arr)
         arr
     end
 end
+
+def bubble_sort_by(arr)
+  if block_given?
+    loop do
+      swapped = false
+      (arr.length - 1).times do |i|
+        if yield(arr[i], arr[i + 1]).positive?
+          arr[i], arr[i + 1] = arr[i + 1], arr[i]
+          swapped = true
+        end
+      end
+      break unless !swapped
+    end
+    arr
+  else
+    bubble_sort(arr)
+  end
+end
