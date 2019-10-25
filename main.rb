@@ -28,23 +28,19 @@ def bubble_sort(arr)
 end
 
 def bubble_sort_by(arr)
-  if verify_input(arr)
-    if block_given?
-      loop do
-        swapped = true
-        (arr.length - 1).times do |i|
-          if yield(arr[i], arr[i + 1]).positive?
-            arr[i], arr[i + 1] = arr[i + 1], arr[i]
-            swapped = false
-          end
-        end
-        break unless swapped
+  return unless verify_input(arr)
+
+  raise 'Please provide a block' unless block_given?
+
+  loop do
+    swapped = true
+    (arr.length - 1).times do |i|
+      if yield(arr[i], arr[i + 1]).positive?
+        arr[i], arr[i + 1] = arr[i + 1], arr[i]
+        swapped = false
       end
-      arr
-    else
-      bubble_sort(arr)
     end
-  else
-    arr
+    break unless swapped
   end
+  arr
 end
