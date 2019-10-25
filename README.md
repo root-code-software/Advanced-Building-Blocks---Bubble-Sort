@@ -15,15 +15,16 @@ Rubocop:
 
 # Built With
 
-* ruby 2.5.5+
+* `ruby` v2.5.5+
 * RVM
+* `vscode` with _Ruby_ and _Rubocop_ extensions
 * Linux
 * Love and Passion for code.
 
 # Author
 
-* [Israel Laguan](https://github.com/Israel-Laguan)
 * [izaiasneto4](https://github.com/izaiasneto4)
+* [Israel Laguan](https://github.com/Israel-Laguan)
 
 # License
 
