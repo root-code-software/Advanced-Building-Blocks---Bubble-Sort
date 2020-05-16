@@ -10,16 +10,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://">
-	  <img src="https://img.icons8.com/color/96/000000/full-image.png" alt="Logo"/>
+  <a href="https://www.ruby-lang.org">
+	  <img src="https://www.ruby-lang.org/images/header-ruby-logo.png" alt="Logo"/>
   </a>
 
   <h1 align="center">
-	Advanced-Building-Blocks---Bubble-Sort
+	Advanced Building Blocks -Bubble-Sort
   </h1>
 
   <p align="center">
-    In this project, the you will implement the bubble sort algorithm. Assignment is focused on the use of yield and passing a block to a method.
+    Our implementation of the Bubble Sort Algorithm with Ruby
     <br />
 	  🖊️
     <a href="https://">Read the article</a>
@@ -30,12 +30,22 @@
   </p>
 </p>
 
+# The Project
+
+In this project, we implemented the bubble sort algorithm. The focus is on the use of yield and passing a block to a method.
+
+We created a method that sorts an array. This algorithm has a O(n2) at the worst case scenario.
+
+We included another method that accepts a block to sort an array of strings by length.
+
+You need to have Ruby installed in your computer to run this file.
+
 ## Table of Contents
 
 1. [Validations](#validations)
 2. [Features](#features)
 3. [Built With](#built-with)
-4. [Author](#author)
+4. [Authors](#authors)
 5. [Contributing](#contributing)
 6. [Show your support](#show-your-support)
 7. [License](#license)
@@ -48,7 +58,7 @@ Rubocop:
 
 # Features
 
-* using methods accepting a block using yield()
+* Methods accepting a block using yield()
 * Basic tests on methods
 * %W operator for array of strings
 
@@ -60,12 +70,7 @@ Rubocop:
 * Linux
 * Love and Passion for code.
 
-# Author
-
-* [izaiasneto4](https://github.com/izaiasneto4)
-* [Israel Laguan](https://github.com/Israel-Laguan)
-
-# Author Israel Laguan
+# Authors
 
 <table style="width:100%">
   <tr>
@@ -109,6 +114,33 @@ Rubocop:
         </div>
     </td>
   </tr>
+  <tr>
+	  <td>
+			<div align="center">
+            <a href="https://github.com/izaiasneto4" target="_blank" rel="author">
+                <img src="https://avatars1.githubusercontent.com/u/5157985?s=460&v=4" style="border-radius: 10%; min-width: 100px;" alt="Izaias Neto's Photo" width="200px">
+            </a>
+            <h2>
+                <a href="https://github.com/izaiasneto4" target="_blank" rel="author">
+                    Izaias Neto
+                </a>
+            </h2>
+        </div>
+    </td>
+    <td>
+        <div align="center">
+            <a href="mailto:izaiasneto4@gmail.com" target="_blank" rel="author">
+                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
+                <h3>
+                    Email me to 
+                    <a href="mailto:izaiasneto4@gmail.com">
+                        izaiasneto4@gmail.com
+                    </a>
+                </h3>
+            </a>
+			</div>
+		</td>
+  </tr>
 </table> 
 
 # Contributing
@@ -124,7 +156,7 @@ Feel free to check the [issues page][issues-url].
 
 Icons from:
 
-<a href="https://icons8.com/icon/13917/full-image">Icons8</a>
+<a href="https://icons8.com">Icons8</a>
 
 # License
 
@@ -143,7 +175,7 @@ Feel free to fork this project and improve it - see the [LICENSE.md](LICENSE.md)
 [issues-open-shield]: https://img.shields.io/github/issues/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort?style=for-the-badge
 [issues-url]: https://github.com/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort/issues
 [issues-closed-shield]: https://img.shields.io/github/issues-closed/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort?style=for-the-badge
-[badge-framework]: https://img.shields.io/badge/framework-here-9cf?style=for-the-badge
-[framework-url]: https://google.com
+[badge-framework]: https://img.shields.io/badge/language-Ruby-red?style=for-the-badge
+[framework-url]: https://www.ruby-lang.org/
 [contributions-welcome]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge
 [badge-license]: https://img.shields.io/:license-mit-blue.svg?style=for-the-badge
