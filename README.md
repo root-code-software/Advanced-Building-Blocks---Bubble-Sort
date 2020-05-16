@@ -40,7 +40,9 @@ We included another method that accepts a block to sort an array of strings by l
 
 You need to have Ruby installed in your computer to run this file.
 
-[![Run on Repl.it](https://repl.it/badge/github/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort)](https://repl.it/github/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort)
+## Run Code Online
+
+[![Run on Repl.it](https://img.shields.io/badge/Run%20on-Repl.it-lightgrey?style=for-the-badge&logo=repl.it)](https://repl.it/github/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort)
 
 ## Table of Contents
 
@@ -177,7 +179,7 @@ Feel free to fork this project and improve it - see the [LICENSE.md](LICENSE.md)
 [issues-open-shield]: https://img.shields.io/github/issues/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort?style=for-the-badge
 [issues-url]: https://github.com/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort/issues
 [issues-closed-shield]: https://img.shields.io/github/issues-closed/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort?style=for-the-badge
-[badge-framework]: https://img.shields.io/badge/language-Ruby-red?style=for-the-badge
+[badge-framework]: https://img.shields.io/badge/language-Ruby-red?style=for-the-badge&logo=ruby
 [framework-url]: https://www.ruby-lang.org/
 [contributions-welcome]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge
 [badge-license]: https://img.shields.io/:license-mit-blue.svg?style=for-the-badge
