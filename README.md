@@ -32,13 +32,11 @@
 
 # The Project
 
-In this project, we implemented the bubble sort algorithm. The focus is on the use of yield and passing a block to a method.
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
-We created a method that sorts an array. This algorithm has a O(n2) at the worst case scenario.
+In this project, we implemented the bubble sort algorithm. The focus is on the use of yield and passing a block to a method. We created a method that sorts an array. This algorithm has a O(n2) at the worst case scenario. We included another method that accepts a block to sort an array of strings by length.
 
-We included another method that accepts a block to sort an array of strings by length.
-
-You need to have Ruby installed in your computer to run this file.
+You need to have Ruby installed in your computer to run this file. Also you can run it on [Repl.it](https://repl.it/), click below.
 
 ## Run Code Online
 
@@ -62,7 +60,9 @@ Rubocop:
 
 # Features
 
-* Methods accepting a block using yield()
+* Method #bubble_sort that takes an array and returns a sorted array. It must use the bubble sort methodology
+* A similar method called #bubble_sort_by which sorts an array by accepting a block.
+* Both Methods accepting a block using yield()
 * Basic tests on methods
 * %W operator for array of strings
 

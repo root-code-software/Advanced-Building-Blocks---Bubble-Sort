@@ -20,6 +20,7 @@ print bubble_sort('hello i am blue')
 p bubble_sort([1])
 
 puts 'Let\'s try with an array of letters: '
+puts '#bubble_sort'
 
 letters = %w[ccc a ab oqnwelqwe]
 
