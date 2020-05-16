@@ -40,6 +40,8 @@ We included another method that accepts a block to sort an array of strings by l
 
 You need to have Ruby installed in your computer to run this file.
 
+[![Run on Repl.it](https://repl.it/badge/github/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort)](https://repl.it/github/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort)
+
 ## Table of Contents
 
 1. [Validations](#validations)
