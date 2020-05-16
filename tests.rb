@@ -31,7 +31,6 @@ print bubble_sort_by(letters) { |left, right|
   left.length - right.length
 }
 
-
 puts ''
 puts 'Now some extra tests: '
 p bubble_sort_by(2) { |left, right|
