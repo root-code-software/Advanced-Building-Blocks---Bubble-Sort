@@ -21,6 +21,8 @@
   <p align="center">
     Our implementation of the Bubble Sort Algorithm with Ruby
     <br />
+	  🖊️
+    Read the article
     🐞
     <a href="https://github.com/Israel-Laguan/Advanced-Building-Blocks---Bubble-Sort/issues">Report a Bug</a>
     🙋‍♂️
